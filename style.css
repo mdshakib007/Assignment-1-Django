@@ -1,0 +1,37 @@
+*{
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 767px) {
+    .title{
+        flex-direction: column;
+    }
+}
+
+.portfolio-1, .portfolio-2{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.portfolio-img{
+    width: 50%;
+}
+@media (max-width: 767px) {
+    .portfolio-1, .portfolio-2{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .exp-edu{
+        flex-direction: column;
+    }
+}
+
+.submit-btn{
+    width: 100%;
+}
+.contact-form{
+    border: 1px solid rgba(140, 140, 140, 0.249);
+    border-radius: 10px;
+    padding-top: 20px;
+}
